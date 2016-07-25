@@ -1,0 +1,21 @@
+﻿
+#content{
+    position: absolute;
+    left: 200px;
+    width: 800px;
+	height: 200px;
+	border: 1px solid  #656161;
+    border-radius: 100px;
+	background-color: rgba(26, 12, 65, 0.73);
+}
+.cell
+{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-bottom: 1px  #999;
+	border-right: 1px  #999;
+    position: relative;
+}
+
+
