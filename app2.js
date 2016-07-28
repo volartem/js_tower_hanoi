@@ -159,21 +159,4 @@ class Hanoe {
             }
         }
     }
-    doWork() {
-        setTimeout(function () {
-            console.log(this.n)
-        }, 100);
-    }
-    doWork2() {
-        setTimeout(() => {
-            console.log(this.n);
-        }, 100);
-    }
-    sayMyau(s) {
-        console.log("Myau");
-        if (s > 0) {
-            this.sayMyau(s - 1);
-        }
-        console.log("Myau Myau");
-    }
 }
